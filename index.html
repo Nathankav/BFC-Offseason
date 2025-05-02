@@ -11,24 +11,25 @@
     html, body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      height: 100vh;
+      width: 100vw;
       overflow: hidden;
       background-color: #fff;
     }
     .slide-wrapper {
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       overflow: hidden;
       position: relative;
     }
     .slide-iframe {
       position: absolute;
-      top: -40px; /* adjust as needed to hide branding */
-      left: 0;
-      width: 100%;
-      height: calc(100% + 40px); /* matches the top offset */
+      top: -40px; /* Adjust to hide bottom bar */
+      left: -2vw;  /* Nudge slightly left to center after scale */
+      width: 104vw; /* Slightly wider than screen to avoid cropping */
+      height: calc(100vh + 40px);
       border: 0;
-      transform: scale(1.05); /* slightly zoom in */
+      transform: scale(1.06);
       transform-origin: top left;
     }
   </style>
