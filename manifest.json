@@ -1,6 +1,6 @@
 {
-  "name": "My Slides App",
-  "short_name": "SlidesApp",
+  "name": "Off Season App",
+  "short_name": "BFC Offseason",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
